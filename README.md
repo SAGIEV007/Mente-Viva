@@ -94,7 +94,8 @@ Cada agente opera de forma autônoma, garantindo que o usuário receba só o que
 
 ## <a name="demo-interativo"></a>📦 Demo Interativo
 
-[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ClaudioMendonca-Eng/alura-imersao-ia/main?filepath=Projeto%20alura%20definitivo.ipynb)
+[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SAGIEV007/Imersao-Alura-IA2025/HEAD?filepath=Assistente%20pessoal%20para%20melhor%20idade.ipynb)
+
 
 ---
 
