@@ -8,8 +8,8 @@
 
 * [Sobre](#sobre)
 * [Funcionalidades](#funcionalidades)
-* [Como Subir no GitHub](#como-subir-no-github)
-* [Como Rodar Localmente](#como-rodar-localmente)
+* [Como Rodar no Colab](#como-rodar-no-colab)
+* [Estrutura da Pasta](#estrutura-da-pasta)
 * [Licença](#licenca)
 
 ---
@@ -35,49 +35,35 @@ Além disso, inclui lembretes de compromissos e atalhos úteis para sites como I
 
 ---
 
-## <a name="como-subir-no-github"></a>🚀 Como Subir no GitHub
+## <a name="como-rodar-no-colab"></a>🚀 Como Rodar no Google Colab
 
-1. Acesse [github.com](https://github.com) e clique em **New repository**.
-2. Defina o nome (ex: `Imersao-Alura-IA2025`), descrição e visibilidade (público ou privado).
-3. Marque **Initialize this repository with a README**.
-4. (Opcional) Adicione um `.gitignore` para Python.
-5. Clique em **Create repository**.
-6. No terminal ou interface web, envie seu notebook, `requirements.txt` e o `.gitignore`:
+1. Acesse este notebook no Colab:
 
-   * **GitHub web:** use o botão **Add file › Upload files**, depois Commit.
-   * **Terminal Git:**
+   ```
+   https://colab.research.google.com/github/SAGIEV007/Imersao-Alura-IA2025/blob/main/Assistente%20pessoal%20para%20melhor%20idade.ipynb
+   ```
+2. **Defina sua API Key** no Colab Secrets:
 
-     ```bash
-     git clone https://github.com/SAGIEV007/Imersao-Alura-IA2025.git
-     cp "Assistente pessoal para melhor idade.ipynb" Imersao-Alura-IA2025/
-     cd Imersao-Alura-IA2025
-     git add .
-     git commit -m "Adiciona notebook e arquivos iniciais"
-     git push origin main
-     ```
+   * Clique em **⌨️ Código** e selecione **Alterar para ambiente de execução baseado em notebook**
+   * No menu lateral, abra **🔒 Secrets** e crie uma variável `GOOGLE_API_KEY` com sua chave
+3. Execute todas as células em ordem para instalar dependências e configurar o ambiente.
 
 ---
 
-## <a name="como-rodar-localmente"></a>🛠️ Como Rodar Localmente
+## <a name="estrutura-da-pasta"></a>📂 Estrutura da Pasta
 
-1. Clone o repositório:
+Garanta que seu repositório contenha estes arquivos e pastas:
 
-   ```bash
-   git clone https://github.com/SAGIEV007/Imersao-Alura-IA2025.git
-   cd Imersao-Alura-IA2025
-   ```
-2. (Opcional) Crie e ative um ambiente virtual:
+```
+Imersao-Alura-IA2025/
+├── .gitignore            # ignorar caches, venv, .ipynb_checkpoints
+├── LICENSE               # texto da licença MIT
+├── README.md             # este arquivo
+├── requirements.txt      # lista de dependências Python
+└── Assistente pessoal para melhor idade.ipynb  # notebook principal
+```
 
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # Windows: venv\Scripts\activate
-   ```
-3. Instale as dependências:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Abra o notebook no Jupyter Notebook ou Google Colab.
+> **Opcional:** crie pastas `data/` para datasets e `img/` para imagens usadas no README.
 
 ---
 
