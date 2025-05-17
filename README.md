@@ -1,119 +1,86 @@
-<h1 align="center">
-  🌟 Assistente Inteligente para a Melhor Idade 🌟
-</h1>
+# 🌟 Assistente Inteligente para a Melhor Idade
 
-<p align="center">
-  <strong>Um refúgio digital para nossos avós, usando agentes de IA avançados para <em>curadoria inteligente de notícias</em> e bate-papo empático.</strong>
-</p>
+**Um refúgio digital para nossos avós, usando agentes de IA avançados para curadoria inteligente de notícias e bate-papo empático.**
 
 ---
 
 ## 📖 Índice
 
 * [Sobre](#sobre)
-* [Agentes de IA e NewsHub](#news)
-* [Chatbot Amigável](#chatbot)
-* [Funcionalidades Extras](#funcionalidades)
-* [Como Rodar](#como-rodar)
-* [Demo Interativo](#demo-interativo)
-* [Tecnologias](#tecnologias)
+* [Funcionalidades](#funcionalidades)
+* [Como Subir no GitHub](#como-subir-no-github)
+* [Como Rodar Localmente](#como-rodar-localmente)
 * [Licença](#licenca)
 
 ---
 
 ## <a name="sobre"></a>🔍 Sobre
 
-Este projeto busca oferecer uma experiência digital acolhedora para pessoas na melhor idade, combinando:
+Este projeto oferece uma interface simples e acolhedora para a melhor idade, com dois pilares principais:
 
-1. **NewsHub com Agentes de IA**: o <em>coração</em> deste repositório, onde múltiplos agentes inteligentes buscam, filtram e resumem notícias de saúde, finanças e bem-estar, entregando conteúdo relevante de forma simples.
+1. **NewsHub com Agentes de IA**: bots inteligentes que buscam, filtram e resumem notícias de saúde, finanças e bem-estar.
 2. **Chatbot Empático**: conversa amigável para companhia, piadas e suporte.
-3. **Lembretes**: gerenciamento de medicamentos e compromissos.
-4. **Atalhos Úteis**: acesso rápido a serviços como INSS, SUS e receitas.
 
-Nosso principal diferencial está no uso de agentes de IA dedicados à curadoria de notícias: eles vasculham fontes confiáveis, entendem interesses do usuário e apresentam resumos fáceis de ler.
+Além disso, inclui lembretes de compromissos e atalhos úteis para sites como INSS e SUS.
 
 ---
 
-## <a name="news"></a>📰 Agentes de IA e NewsHub
+## <a name="funcionalidades"></a>✨ Funcionalidades
 
-|  🤖 Agentes IA |     📑 Resumos Personalizados     |  🔍 Fontes Confiáveis  |
-| :------------: | :-------------------------------: | :--------------------: |
-| Múltiplos bots | Artigos e manchetes simplificadas | Saúde, Economia, Lazer |
-
-* **Agente Saúde:** prioriza notícias médicas e dicas de bem-estar.
-* **Agente Finanças:** analisa mercado e traz orientações financeiras.
-* **Agente Bem-Estar:** destaca lazer e entretenimento.
-
-Cada agente opera de forma autônoma, garantindo que o usuário receba só o que é relevante e sem jargões complexos.
+* Curadoria automática de notícias via agentes de IA
+* Resumos simples e sem jargões
+* Chatbot para interação e companhia
+* Lembretes de medicamentos e compromissos
+* Links rápidos para serviços essenciais
 
 ---
 
-## <a name="chatbot"></a>💬 Chatbot Amigável
+## <a name="como-subir-no-github"></a>🚀 Como Subir no GitHub
 
-* **Conversa Empática:** bate-papo para compartilhar histórias, piadas e dicas.
-* **Aprendizado Contínuo:** adaptação ao estilo de fala do usuário.
+1. Acesse [github.com](https://github.com) e clique em **New repository**.
+2. Defina o nome (ex: `Imersao-Alura-IA2025`), descrição e visibilidade (público ou privado).
+3. Marque **Initialize this repository with a README**.
+4. (Opcional) Adicione um `.gitignore` para Python.
+5. Clique em **Create repository**.
+6. No terminal ou interface web, envie seu notebook, `requirements.txt` e o `.gitignore`:
+
+   * **GitHub web:** use o botão **Add file › Upload files**, depois Commit.
+   * **Terminal Git:**
+
+     ```bash
+     git clone https://github.com/SAGIEV007/Imersao-Alura-IA2025.git
+     cp "Assistente pessoal para melhor idade.ipynb" Imersao-Alura-IA2025/
+     cd Imersao-Alura-IA2025
+     git add .
+     git commit -m "Adiciona notebook e arquivos iniciais"
+     git push origin main
+     ```
 
 ---
 
-## <a name="funcionalidades"></a>✨ Funcionalidades Extras
+## <a name="como-rodar-localmente"></a>🛠️ Como Rodar Localmente
 
-|     ⏰ Lembretes     |  🔗 Atalhos Úteis  |
-| :-----------------: | :----------------: |
-| Remédios, consultas | INSS, SUS, Receita |
-
----
-
-## <a name="como-rodar"></a>🚀 Como Rodar Localmente
-
-1. **Clone este repositório**
+1. Clone o repositório:
 
    ```bash
    git clone https://github.com/SAGIEV007/Imersao-Alura-IA2025.git
    cd Imersao-Alura-IA2025
    ```
-
-2. **(Opcional) Crie um ambiente virtual**
+2. (Opcional) Crie e ative um ambiente virtual:
 
    ```bash
    python3 -m venv venv
    source venv/bin/activate  # Windows: venv\Scripts\activate
    ```
-
-3. **Instale as dependências**
+3. Instale as dependências:
 
    ```bash
    pip install -r requirements.txt
    ```
-
-4. **Execute**
-
-   * Notebook: abra `Assistente pessoal para melhor idade.ipynb` no Jupyter/Colab
-   * Script (se disponível): `python main.py`
-
----
-
-## <a name="demo-interativo"></a>📦 Demo Interativo
-
-[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SAGIEV007/Imersao-Alura-IA2025/HEAD?filepath=Assistente%20pessoal%20para%20melhor%20idade.ipynb)
-
----
-
-## <a name="tecnologias"></a>🛠️ Tecnologias
-
-* **Agentes IA** via Google GenAI SDK
-* **Gradio** – interface web amigável
-* **TinyDB** – armazenamento leve
-* **schedule** – lembretes automáticos
+4. Abra o notebook no Jupyter Notebook ou Google Colab.
 
 ---
 
 ## <a name="licenca"></a>📄 Licença
 
-Este projeto está sob a licença MIT. Veja [LICENSE](LICENSE) para detalhes.
-
----
-
-<p align="center">
-  💖 A tecnologia como elo, não barreira.  
-  Cuidar de quem cuidou de nós é um ato de amor que a IA pode facilitar.
-</p>
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para detalhes.
