@@ -1,4 +1,4 @@
-# 🌟 Assistente Inteligente para a Melhor Idade
+# 🌟 Assistente Inteligente para a Melhor Idade com agentes de IA na parte de notícias
 
 **Um refúgio digital para nossos avós, usando agentes de IA avançados para curadoria inteligente de notícias e bate-papo empático.**
 
