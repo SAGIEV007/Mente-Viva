@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <strong>Um refúgio digital para nossos avós, usando agentes de IA avançados para _curadoria inteligente de notícias_ e bate-papo empático.</strong>
+  <strong>Um refúgio digital para nossos avós, usando agentes de IA avançados para <em>curadoria inteligente de notícias</em> e bate-papo empático.</strong>
 </p>
 
 ---
@@ -25,7 +25,7 @@
 
 Este projeto busca oferecer uma experiência digital acolhedora para pessoas na melhor idade, combinando:
 
-1. **NewsHub com Agentes de IA**: o *coração* deste repositório, onde múltiplos agentes inteligentes buscam, filtram e resumem notícias de saúde, finanças e bem-estar, entregando conteúdo relevante de forma simples.
+1. **NewsHub com Agentes de IA**: o <em>coração</em> deste repositório, onde múltiplos agentes inteligentes buscam, filtram e resumem notícias de saúde, finanças e bem-estar, entregando conteúdo relevante de forma simples.
 2. **Chatbot Empático**: conversa amigável para companhia, piadas e suporte.
 3. **Lembretes**: gerenciamento de medicamentos e compromissos.
 4. **Atalhos Úteis**: acesso rápido a serviços como INSS, SUS e receitas.
@@ -68,8 +68,8 @@ Cada agente opera de forma autônoma, garantindo que o usuário receba só o que
 1. **Clone este repositório**
 
    ```bash
-   git clone https://github.com/ClaudioMendonca-Eng/alura-imersao-ia.git
-   cd alura-imersao-ia
+   git clone https://github.com/SAGIEV007/Imersao-Alura-IA2025.git
+   cd Imersao-Alura-IA2025
    ```
 
 2. **(Opcional) Crie um ambiente virtual**
@@ -87,7 +87,7 @@ Cada agente opera de forma autônoma, garantindo que o usuário receba só o que
 
 4. **Execute**
 
-   * Notebook: abra `Projeto alura definitivo.ipynb` no Jupyter/Colab
+   * Notebook: abra `Assistente pessoal para melhor idade.ipynb` no Jupyter/Colab
    * Script (se disponível): `python main.py`
 
 ---
@@ -95,7 +95,6 @@ Cada agente opera de forma autônoma, garantindo que o usuário receba só o que
 ## <a name="demo-interativo"></a>📦 Demo Interativo
 
 [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SAGIEV007/Imersao-Alura-IA2025/HEAD?filepath=Assistente%20pessoal%20para%20melhor%20idade.ipynb)
-
 
 ---
 
@@ -110,7 +109,7 @@ Cada agente opera de forma autônoma, garantindo que o usuário receba só o que
 
 ## <a name="licenca"></a>📄 Licença
 
-Projeto sob licença MIT. Veja [LICENSE](LICENSE) para detalhes.
+Este projeto está sob a licença MIT. Veja [LICENSE](LICENSE) para detalhes.
 
 ---
 
