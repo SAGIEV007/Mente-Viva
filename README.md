@@ -74,7 +74,7 @@ Links diretos para sites importantes como INSS, SUS, Gov.br e outros, eliminando
 
 
 1. Acesse este notebook no Colab:
-   [Abra este notebook no Colab](https://colab.research.google.com/github/SAGIEV007/Imersao-Alura-IA2025/blob/main/Assistente%20pessoal%20para%20melhor%20idade.ipynb)
+   [Abra este notebook no Colab](https://colab.research.google.com/github/SAGIEV007/Imersao-Alura-IA2025/blob/main/Assistente_pessoal_para_melhor_idade.ipynb)
 Defina sua API Key em Secrets(Caso não tenha):
 
 Abra o painel lateral e selecione 🔒 Secrets
