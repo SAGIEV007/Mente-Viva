@@ -1,6 +1,21 @@
-# 🌟 Assistente Inteligente para a Melhor Idade
+ 🌟 Assistente Inteligente para a Melhor Idade
 
-![idoso_usando_app](https://github.com/user-attachments/assets/41ad6445-2e23-49cd-aa31-72c038bc404a)
+**Assistente virtual que combate a solidão e exclusão digital de idosos, oferecendo conversas empáticas, notícias simplificadas, gerenciamento de medicamentos e acesso facilitado a serviços essenciais.**
+
+## 📑 Índice
+- [Sobre o Projeto](#-um-companheiro-digital-para-a-melhor-idade-resgatando-conexões-com-inteligência-artificial)
+- [O Problema da Exclusão Digital](#-a-dor-silenciosa-da-exclusão-digital)
+- [Nossa Solução](#-nossa-solução-simplicidade-com-propósito)
+- [Inovações Técnicas](#-inovações-técnicas-que-fazem-a-diferença)
+- [Como Funciona](#-como-funciona-tecnologia-a-serviço-da-inclusão)
+- [Funcionalidades Detalhadas](#-funcionalidades-detalhadas)
+- [Como Acessar no Colab](#-como-acessar-no-colab)
+- [Impacto Social](#-impacto-social-e-benefícios)
+- [Contribua com o Projeto](#-contribua-com-o-projeto)
+- [Licença](#-licença)
+
+
+<img src="https://github.com/user-attachments/assets/41ad6445-2e23-49cd-aa31-72c038bc404a" alt="idoso_usando_app" width="400">
 
 
 ## 👵 Um Companheiro Digital para a Melhor Idade: Resgatando Conexões com Inteligência Artificial
@@ -11,7 +26,7 @@ Imagine um cenário diferente: um rosto amigo digital que conversa em linguagem 
 
 ## 💔 A Dor Silenciosa da Exclusão Digital
 
-![estatisticas_idosos](https://github.com/user-attachments/assets/dd58b2ae-e5f8-451b-a6ff-7024637240bf)
+<img src="https://github.com/user-attachments/assets/dd58b2ae-e5f8-451b-a6ff-7024637240bf" alt="estatisticas_idosos" width="350">
 
 
 A exclusão digital entre idosos não é apenas uma questão de acesso à tecnologia, mas também de design e usabilidade. Interfaces complexas, termos técnicos e a necessidade de configurações avançadas criam barreiras quase intransponíveis. Quando um idoso desiste de usar um aplicativo após várias tentativas frustradas, não perdemos apenas um usuário - perdemos uma oportunidade de conexão, de acesso à informação, de independência.
@@ -22,7 +37,7 @@ Os números são reveladores: enquanto 56% dos idosos brasileiros já acessam a 
 
 Desenvolvemos um assistente virtual especialmente pensado para idosos, com quatro pilares fundamentais:
 
-![fluxograma_app](https://github.com/user-attachments/assets/22c59f9c-754f-492e-9733-dcf705becc3a)
+<img src="https://github.com/user-attachments/assets/22c59f9c-754f-492e-9733-dcf705becc3a" alt="fluxograma_app" width="350">
 
 
 1. **Conversa Empática**: Um chatbot que fala português brasileiro com referências culturais familiares, pronto para conversar sobre o dia, contar uma piada ou simplesmente fazer companhia.
@@ -35,7 +50,7 @@ Desenvolvemos um assistente virtual especialmente pensado para idosos, com quatr
 
 ## 🚀 Inovações Técnicas que Fazem a Diferença
 
-![arquitetura_sistema](https://github.com/user-attachments/assets/2419a54a-1b8b-4eb0-8bc5-0b2b3649aacb)
+<img src="https://github.com/user-attachments/assets/2419a54a-1b8b-4eb0-8bc5-0b2b3649aacb" alt="arquitetura_sistema" width="350">
 
 
 Nossa maior inovação foi tornar o sistema **acessível para todos**, sem necessidade de configurações técnicas complexas:
@@ -76,7 +91,7 @@ Agora totalmente funcional! Os usuários podem:
 Links diretos para sites importantes como INSS, SUS, Gov.br e outros, eliminando a necessidade de digitar URLs complexas ou navegar por menus de busca.
 
 
-
+## 💻 Como Acessar no Colab
 1. Acesse este notebook no Colab:
    [Abra este notebook no Colab](https://colab.research.google.com/github/SAGIEV007/Imersao-Alura-IA2025/blob/main/Assistente_pessoal_para_melhor_idade.ipynb)
 Defina sua API Key em Secrets(Caso não tenha):
@@ -85,7 +100,7 @@ Abra o painel lateral e selecione 🔒 Secrets
 Crie a variável GOOGLE_API_KEY com sua chave pessoal
 
 
-## 🛠️ Como Instalar e Usar
+## 🛠️ Como Instalar e Usar sem o Colab
 
 ### Pré-requisitos
 - Python 3.6 ou superior
