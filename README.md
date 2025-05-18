@@ -1,6 +1,7 @@
 # 🌟 Assistente Inteligente para a Melhor Idade
 
-![Idoso usando o aplicativo](/home/ubuntu/projeto_assistente_idosos/images/idoso_usando_app.png)
+![idoso_usando_app](https://github.com/user-attachments/assets/41ad6445-2e23-49cd-aa31-72c038bc404a)
+
 
 ## 👵 Um Companheiro Digital para a Melhor Idade: Resgatando Conexões com Inteligência Artificial
 
@@ -10,7 +11,8 @@ Imagine um cenário diferente: um rosto amigo digital que conversa em linguagem 
 
 ## 💔 A Dor Silenciosa da Exclusão Digital
 
-![Estatísticas sobre idosos e tecnologia](/home/ubuntu/projeto_assistente_idosos/images/estatisticas_idosos.png)
+![estatisticas_idosos](https://github.com/user-attachments/assets/dd58b2ae-e5f8-451b-a6ff-7024637240bf)
+
 
 A exclusão digital entre idosos não é apenas uma questão de acesso à tecnologia, mas também de design e usabilidade. Interfaces complexas, termos técnicos e a necessidade de configurações avançadas criam barreiras quase intransponíveis. Quando um idoso desiste de usar um aplicativo após várias tentativas frustradas, não perdemos apenas um usuário - perdemos uma oportunidade de conexão, de acesso à informação, de independência.
 
@@ -20,7 +22,8 @@ Os números são reveladores: enquanto 56% dos idosos brasileiros já acessam a 
 
 Desenvolvemos um assistente virtual especialmente pensado para idosos, com quatro pilares fundamentais:
 
-![Fluxograma das funcionalidades](/home/ubuntu/projeto_assistente_idosos/images/fluxograma_app.png)
+![fluxograma_app](https://github.com/user-attachments/assets/22c59f9c-754f-492e-9733-dcf705becc3a)
+
 
 1. **Conversa Empática**: Um chatbot que fala português brasileiro com referências culturais familiares, pronto para conversar sobre o dia, contar uma piada ou simplesmente fazer companhia.
 
@@ -32,7 +35,8 @@ Desenvolvemos um assistente virtual especialmente pensado para idosos, com quatr
 
 ## 🚀 Inovações Técnicas que Fazem a Diferença
 
-![Arquitetura do sistema](/home/ubuntu/projeto_assistente_idosos/images/arquitetura_sistema.png)
+![arquitetura_sistema](https://github.com/user-attachments/assets/2419a54a-1b8b-4eb0-8bc5-0b2b3649aacb)
+
 
 Nossa maior inovação foi tornar o sistema **acessível para todos**, sem necessidade de configurações técnicas complexas:
 
